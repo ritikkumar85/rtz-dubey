@@ -413,36 +413,208 @@ hr{
 
 
 
- @media screen and (min-width:320px ) and (max-width:481px){
+ @media screen and (min-width:454px ) and (max-width:542px){
   
+
+    .top{
+        display: flex;
+        flex-wrap: wrap;
+    }
      .mainimg{
-        width: 150px;
-        height: 150px;
+        width: 230px;
+        height: 230px;
 
      }
 
      .skillname{
-        font-size: 3px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        font-size:10px ;
      }
      .skillname::first-letter{
-        font-size: 5px;
+        font-size: 20px;
      }
 
      .skilltxt{
-        width: 49px;
+        padding: 5px 0px;
+        /* width: 49px; */
      }
 
      .skill{
-        height: 20px;
-        width: 40px;
-        padding: 5px;
-        margin: 20px 10px;
+        height: 30px;
+        width: 85px;
+        padding: 7px 5px;
+        margin: 20px 5px;
      }
      .skill2{
-        height: 20px;
-        width: 40px;
-        padding: 5px;
-        margin: 20px 10px;
+        height: 30px;
+        width: 80px;
+        padding: 7px 5px;
+        margin: 20px 5px;
+     }
+
+     .skillbox{
+        height: 100px;
+     }
+     .skillbox2{
+        height: 100px;
+     }
+
+
+     .project{
+        width: 150px;
+        height: 300px;
+        margin: 30px 100px;
+        /* padding: 0px; */
+     }
+
+     .projectbox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+     }
+
+     .pname{
+        /* font-size: 10px; */
+        margin-top: 20px;
+        font-weight: lighter;
+     }
+
+     .projectimg{
+
+        border: 4px solid #FFBF49;
+        margin: auto;
+        margin-top: 26px;
+        padding: 0px;
+        width: 130px;
+        height: 130px;
+     }
+
+     .pimg{
+        width: 130px;
+        height: 130px;
+     }
+
+     
+
+     .getintouch{
+        border: 0px;
+        width: 60px;
+        /* height: 5px; */
+        margin: 8px 0px 0px 0px;
+        padding: 0px;
+        /* padding-bottom: 20px; */
+        /* color: white; */
+        background-color: #FFBF49;
+    }
+    .getintouch a{
+        /* padding-bottom: 2px; */
+        font-size: 8px;
+        /* margin-bottom: 30px; */
+    }
+
+    nav{
+        height: 30px;
+        padding: 4px 10px;
+    }
+
+    .navitem{
+        font-size: 0.8rem;
+    }
+
+    .logo{
+        padding: 0;
+        margin: 0;
+        padding-top: 4px;
+        font-size: 1.1rem;
+    }
+
+    .abouttextbox{
+        width: 350px;
+        height: 230px;
+    }
+
+    .navbar{
+        /* width: 20px; */
+
+    }
+  
+    .abouthead{
+        /* width: 20px; */
+        font-size: 30px;
+    }
+
+    .projectheadding{
+        font-size: 30px;
+    }
+
+    .abouttext{
+        font-size: 12px;
+    }
+
+    .socialicon{
+        width: 30px;
+        /* margin-right: 10px; */
+    }
+
+    .right{
+        margin:0px  70px;
+        font-size: 10px;
+    }
+
+    footer{
+        justify-content: center;
+        flex-wrap: wrap;
+        /* padding: 0ch; */
+    }
+
+
+
+ }
+ 
+
+
+
+
+
+ /* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
+
+ @media screen and (min-width:320px ) and (max-width:453px){
+  
+
+
+     .mainimg{
+        width: 180px;
+        height: 180px;
+
+     }
+
+     .skillname{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        font-size:7px ;
+     }
+     .skillname::first-letter{
+        font-size: 10px;
+     }
+
+     .skilltxt{
+        padding: 5px 0px;
+        /* width: 49px; */
+     }
+
+     .skill{
+        height: 30px;
+        width: 50px;
+        padding: 7px 2px;
+        margin: 20px 5px;
+     }
+     .skill2{
+        height: 30px;
+        width: 50px;
+        padding: 7px 2px;
+        margin: 20px 5px;
      }
 
      .skillbox{
@@ -455,13 +627,20 @@ hr{
 
      .project{
         width: 100px;
-        height: 200px;
-        margin: 0px 10px;
-        padding: 0px;
+        height: 300px;
+        margin: 30px 55px;
+        /* padding: 0px; */
+     }
+
+     .projectbox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
      }
 
      .pname{
-        font-size: 10px;
+        font-size: 20px;
         margin-top: 20px;
         font-weight: lighter;
      }
@@ -472,86 +651,431 @@ hr{
         margin: auto;
         margin-top: 26px;
         padding: 0px;
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
      }
 
      .pimg{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
      }
 
      
 
      .getintouch{
         border: 0px;
-        width: 30px;
-        height: 5px;
-        margin: 0px;
+        width: 40px;
+        /* height: 5px; */
+        margin: 8px 0px 0px 0px;
         padding: 0px;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
         /* color: white; */
         background-color: #FFBF49;
     }
     .getintouch a{
-        padding-bottom: 2px;
-        font-size: 4px;
+        /* padding-bottom: 2px; */
+        font-size: 5px;
         /* margin-bottom: 30px; */
     }
 
     nav{
-        height: 25px;
+        height: 30px;
+        padding: 4px 10px;
     }
 
     .navitem{
-        font-size: 5px;
+        font-size: 0.6rem;
     }
 
     .logo{
+        padding: 0;
+        margin: 0;
         padding-top: 4px;
-        font-size: 8px;
+        font-size: 0.7rem;
     }
 
     .abouttextbox{
-        width: 350px;
-        height: 270px;
+        width: 250px;
+        height: 200px;
     }
 
     .navbar{
-        width: 20px;
+        display: flex;
+        /* width: 20px; */
 
     }
   
     .abouthead{
         /* width: 20px; */
-        font-size: 35px;
+        font-size: 20px;
     }
 
     .projectheadding{
-        font-size: 35px;
+        margin: 0px;
+        padding: 5px;
+        font-size: 20px;
     }
 
     .abouttext{
-        font-size:  15px;
+        padding: 10px;
+        margin: 0%;
+        width: 230px;
+        font-size: 10px;
     }
 
     .socialicon{
-        width: 10px;
-        margin-right: 10px;
+        width: 30px;
+        /* margin-right: 10px; */
     }
 
     .right{
-        margin-left: 70px;
+        /* margin-left: 70px; */
         font-size: 10px;
     }
 
     footer{
-        padding: 0ch;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* padding: 0ch; */
     }
 
 
 
  }
+
+
+ /* ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+ @media screen and (min-width:543px ) and (max-width:768px){
+  
+
+    .top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .mainimg{
+        width: 250px;
+        height: 250px;
+
+     }
+
+     .skillname{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        font-size:15px ;
+     }
+     .skillname::first-letter{
+        font-size: 20px;
+     }
+
+     .skilltxt{
+        padding: 5px 5px;
+        /* width: 49px; */
+     }
+
+     .skill{
+        height: 30px;
+        width: 120px;
+        padding: 7px 5px;
+        margin: 20px 5px;
+     }
+     .skill2{
+        height: 30px;
+        width: 120px;
+        padding: 7px 5px;
+        margin: 20px 5px;
+     }
+
+     .skillbox{
+        height: 100px;
+     }
+     .skillbox2{
+        height: 100px;
+     }
+
+
+     .project{
+        width: 150px;
+        height: 300px;
+        margin: 30px 140px;
+        /* padding: 0px; */
+     }
+
+     .projectbox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+     }
+
+     .pname{
+        /* font-size: 10px; */
+        margin-top: 20px;
+        font-weight: lighter;
+     }
+
+     .projectimg{
+
+        border: 4px solid #FFBF49;
+        margin: auto;
+        margin-top: 26px;
+        padding: 0px;
+        width: 130px;
+        height: 130px;
+     }
+
+     .pimg{
+        width: 130px;
+        height: 130px;
+     }
+
+     
+
+     .getintouch{
+        border: 0px;
+        width: 60px;
+        /* height: 5px; */
+        margin: 8px 0px 0px 0px;
+        padding: 0px;
+        /* padding-bottom: 20px; */
+        /* color: white; */
+        background-color: #FFBF49;
+    }
+    .getintouch a{
+        /* padding-bottom: 2px; */
+        font-size: 8px;
+        /* margin-bottom: 30px; */
+    }
+
+    nav{
+        height: 30px;
+        padding: 4px 10px;
+    }
+
+    .navitem{
+        font-size: 0.8rem;
+    }
+
+    .logo{
+        padding: 0;
+        margin: 0;
+        padding-top: 4px;
+        font-size: 1.1rem;
+    }
+
+    .abouttextbox{
+        width: 350px;
+        height: 230px;
+    }
+
+    .navbar{
+        /* width: 20px; */
+
+    }
+  
+    .abouthead{
+        /* width: 20px; */
+        font-size: 30px;
+    }
+
+    .projectheadding{
+        font-size: 30px;
+    }
+
+    .abouttext{
+        font-size: 12px;
+    }
+
+    .socialicon{
+        width: 30px;
+        /* margin-right: 10px; */
+    }
+
+    .right{
+        margin:0px  70px;
+        font-size: 10px;
+    }
+
+    footer{
+        justify-content: center;
+        flex-wrap: wrap;
+        /* padding: 0ch; */
+    }
+
+
+ }
+
+
+
+ @media screen and (min-width:769px ) and (max-width:1139px)
+
+ {
+  
+
+    .top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .mainimg{
+        width: 350px;
+        height: 350px;
+
+     }
+
+     .skillname{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        font-size:15px ;
+     }
+     .skillname::first-letter{
+        font-size: 20px;
+     }
+
+     .skilltxt{
+        padding: 5px 5px;
+        /* width: 49px; */
+     }
+
+     .skill{
+        height: 30px;
+        width: 190px;
+        padding: 7px 5px;
+        margin: 60px 5px;
+     }
+     .skill2{
+        height: 30px;
+        width: 190px;
+        padding: 7px 5px;
+        margin: 60px 5px;
+     }
+
+     .skillbox{
+        height: 100px;
+     }
+     .skillbox2{
+        height: 100px;
+     }
+
+
+     .project{
+        width: 250px;
+        height: 400px;
+        margin: 30px 140px;
+        /* padding: 0px; */
+     }
+
+     .projectbox{
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+
+     }
+
+
+     .pname{
+        /* font-size: 10px; */
+        margin-top: 30px;
+        font-weight: lighter;
+     }
+
+     .projectimg{
+
+        border: 4px solid #FFBF49;
+        margin: auto;
+        margin-top: 26px;
+        padding: 0px;
+        width: 200px;
+        height: 200px;
+     }
+
+     .pimg{
+        width: 200px;
+        height: 200px;
+     }
+
+     
+
+     .getintouch{
+        border: 0px;
+        width: 90px;
+        /* height: 5px; */
+        margin: 8px 0px 0px 0px;
+        padding: 5pxpx;
+        /* padding-bottom: 20px; */
+        /* color: white; */
+        background-color: #FFBF49;
+    }
+    .getintouch a{
+        /* padding-bottom: 2px; */
+        font-size: 10px;
+        /* margin-bottom: 30px; */
+    }
+
+    nav{
+        height: 30px;
+        padding: 4px 10px;
+    }
+
+    .navitem{
+        font-size: 1rem;
+    }
+
+    .logo{
+        padding: 0;
+        margin: 0;
+        padding-top: 4px;
+        font-size: 1.5rem;
+    }
+
+    .abouttextbox{
+        width: 500px;
+        height: 250px;
+        margin: 40px 0px ;
+    }
+
+    .navbar{
+        /* width: 20px; */
+
+    }
+  
+    .abouthead{
+        /* width: 20px; */
+        font-size: 40px;
+    }
+
+    .projectheadding{
+        font-size: 40px;
+    }
+
+    .abouttext{
+        font-size: 15px;
+    }
+
+    .socialicon{
+        width: 30px;
+        /* margin-right: 10px; */
+    }
+
+    .right{
+        margin:20px  0px;
+        font-size: 10px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* padding: 0ch; */
+    }
+
+
+ }
+ 
+ 
+
+ 
+
+
  
 
  
