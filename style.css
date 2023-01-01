@@ -634,7 +634,7 @@ hr{
 
      .projectbox{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
 
      }
@@ -803,7 +803,7 @@ hr{
 
      .projectbox{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
 
      }
