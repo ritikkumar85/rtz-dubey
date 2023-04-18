@@ -64,13 +64,14 @@ nav{
     font-variant: small-caps;
     margin: 2px 0px;
     padding: 0px 20px;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .navitem{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 100;
-    margin: 10px 10px;
+    margin: 0px 10px;
+    margin-top: 15px;
     text-decoration: none;
     color: white;
     /* margin-bottom: 0px; */
@@ -95,7 +96,9 @@ nav{
 }
 
 .getintouch{
+    width: 150px;
     margin: 5px;
+    margin-top: 20px;
     padding: 3px;
     /* color: white; */
     background-color: #FFBF49;
@@ -166,6 +169,8 @@ nav{
 .skillbox{
     /* background-color: #fcca27; */
     height: 660px;
+    margin-top: 50px;
+    margin-right: 30px;
 }
 
 .skill{
@@ -174,7 +179,7 @@ nav{
     border-radius: 10px;
     border: 2px solid #FFBF49;
     /* border: 6px double #ffc456; */
-    width: 200px;
+    width: 300px;
     height: 100px;
     margin:70px 10px;
     display: flex;
@@ -188,6 +193,8 @@ nav{
 .skillbox2{
     /* background-color: #fcca27; */
     height: 660px;
+    margin-top: 50px;
+    margin-left: 30px;
     justify-content: center;
     text-justify: distribute;
     justify-items: center;
@@ -201,7 +208,7 @@ nav{
     border-radius: 10px;
     border: 2px solid #FFBF49;
     /* border: 6px double #ffc456; */
-    width: 200px;
+    width: 300px;
     height: 100px;
     margin: 70px 10px;
     display: flex;
@@ -265,23 +272,6 @@ hr{
 
 
 
-.about-container{
-    width: 1000px;
-    /* padding-left: 10px; */
-    /* background-image: url("/image/bg5.jpg"); */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    display: flex;
-    flex-wrap:
-    wrap;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 6px 6px 10px -1px rgb(0 0 0 / 15%), -6px -6px 10px -1px rgb(255 255 255 / 70%);
-
-  } 
-
-
   .aboutbox{
     padding: 50px 0px;
     background-color: aqua;
@@ -299,7 +289,7 @@ hr{
 
   .abouttextbox{
     background-color: rgb(21, 56, 43);
-    width: 600px;
+    width: 900px;
     height: fit-content;
     border-radius: 70px 0px;
     border: 2px solid #FFBF49;
@@ -316,6 +306,7 @@ hr{
 
   .abouttext{
     padding: 10px 20px;
+    font-size: 1.6rem;
   }
 
 
@@ -325,14 +316,15 @@ hr{
   .headproject{
     background: linear-gradient(rgb(14, 32, 25) , #00120d); 
     padding-bottom: 80px;
+    f
    
   }
 
   .projectheadding{
-    font-family: 'Caveat';
+    font-family: 'Caveat', 'san-serif';
     margin: 0px;
     padding: 50px 0px;
-    font-size: 50px;
+    font-size: 80px;
     /* color: white; */
     color: #FFBF49;
   }
@@ -351,7 +343,7 @@ hr{
     width: fit-content;
     height: 400px;
     /* background-color: #FFBF49; */
-    margin:  20px;
+    margin:  90px;
     padding: 1px 50px;
     /* display: flex; */
     justify-content: center;
@@ -381,6 +373,10 @@ hr{
     width: 200px;
     height: 200px;
   }
+  .pname{
+    padding-top: 20px;
+    font-size: 35px;
+  }
 
   .plink{
     text-decoration: none;
@@ -405,6 +401,15 @@ hr{
     /* border-top: 20px dotted #FFBF49; */
     /* box-shadow: -6px -6px 10px 2px rgba(0, 0, 0, 0.671); */
 
+ }
+
+ .socialicon{
+    width: 30px;
+    margin: 0px 20px;
+ }
+
+ .right{
+    font-size: 1.2rem;
  }
 
 
@@ -574,20 +579,21 @@ hr{
 
  /* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
 
- @media screen and (min-width:320px ) and (max-width:453px){
+ @media screen and (min-width:320px ) and (max-width:457px){
   
 
 
      .mainimg{
-        width: 180px;
-        height: 180px;
+        margin-top: 25px;
+        width: 200px;
+        height: 200px;
 
      }
 
      .skillname{
         font-family: 'Courier New', Courier, monospace;
         font-weight: 100;
-        font-size:7px ;
+        font-size:6px ;
      }
      .skillname::first-letter{
         font-size: 10px;
@@ -600,28 +606,48 @@ hr{
 
      .skill{
         height: 30px;
-        width: 50px;
+        width: 60px;
         padding: 7px 2px;
-        margin: 20px 5px;
+        margin: 30px 5px;
+        margin-top: 15px;
      }
      .skill2{
         height: 30px;
-        width: 50px;
+        width: 70px;
         padding: 7px 2px;
-        margin: 20px 5px;
+        margin: 30px 5px;
+        margin-top: 15px;
      }
+
+     .skillcen{
+        /* margin-left: 10px; */
+        margin-right: 10px;
+
+
+     }
+
+     .skillcen2{
+        /* margin: 40px 5px; */
+        margin-left: 10px;
+
+     }
+
 
      .skillbox{
         height: 100px;
+        margin: 30px 0px ;
+        margin-top: 0px;
      }
      .skillbox2{
         height: 100px;
+        margin: 30px 0px ;
+        margin-top: 0px;
      }
 
 
      .project{
         width: 100px;
-        height: 300px;
+        height: 220px;
         margin: 30px 55px;
         /* padding: 0px; */
      }
@@ -658,7 +684,7 @@ hr{
 
      .getintouch{
         border: 0px;
-        width: 40px;
+        width: 60px;
         /* height: 5px; */
         margin: 8px 0px 0px 0px;
         padding: 0px;
@@ -668,36 +694,47 @@ hr{
     }
     .getintouch a{
         /* padding-bottom: 2px; */
-        font-size: 5px;
+        font-size: 8px;
         /* margin-bottom: 30px; */
     }
 
     nav{
-        position: sticky;
+        /* position: sticky; */
         height: fit-content;
         padding: 4px 10px;
     }
 
+    .navbar{
+        justify-content:left;
+        text-align: center;
+        /* padding-left: 50px; */
+    }
+    
+
     .navitem{
-        font-size: 0.6rem;
+        /* width: fit-content; */
+        /* display: flex; */
+        font-size: 0.5rem;
+        margin: 10px 8px;
     }
 
     .logo{
         padding: 0;
         margin: 0;
         padding-top: 4px;
-        font-size: 0.7rem;
+        font-size: 1.1rem;
     }
 
     .abouttextbox{
-        width: 250px;
+        width: 320px;
         /* height: 200px; */
+      
         height: fit-content;
     }
 
     .navbar{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         /* float: left; */
         height: fit-content;
         /* width: 20px; */
@@ -710,20 +747,22 @@ hr{
     }
     .abouthead{
         /* width: 20px; */
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .projectheadding{
         margin: 0px;
         padding: 5px;
-        font-size: 20px;
+        font-size: 50px;
     }
 
     .abouttext{
-        padding: 10px;
+        /* font-family:Arial, Helvetica, sans-serif; */
+        padding: 10px 20px;
         margin: 0%;
-        width: 230px;
+        /* width: 230px; */
         font-size: 10px;
+        font-weight: 100;
     }
 
     .socialicon{
@@ -740,6 +779,10 @@ hr{
         justify-content: center;
         flex-wrap: wrap;
         /* padding: 0ch; */
+    }
+
+    .aboutbox{
+        padding: 20px 0px;
     }
 
 
@@ -911,7 +954,7 @@ hr{
 
 
 
- @media screen and (min-width:769px ) and (max-width:1139px)
+ @media screen and (min-width:769px ) and (max-width:1500px)
 
  {
   
