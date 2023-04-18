@@ -579,7 +579,10 @@ hr{
 
  /* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
 
- @media screen and (min-width:320px ) and (max-width:457px){
+
+
+
+ @media screen and (max-width:767px){
   
 
 
@@ -790,9 +793,12 @@ hr{
  }
 
 
+
  /* ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
 
- @media screen and (min-width:543px ) and (max-width:768px){
+
+
+ @media screen and (min-width:768px ) and (max-width:1023px){
   
 
     .top{
